@@ -1,4 +1,4 @@
-# Workflow for building and deploying a Vite app to GitHub Pages
+# Simple workflow for deploying Vite React app to GitHub Pages
 name: Deploy static content to Pages
 
 on:
@@ -15,13 +15,12 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Single build and deploy job
   deploy:
     environment:
       name: github-pages
@@ -30,30 +29,28 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      # 1. Setup Node.js environment
-      - name: Setup Node
+        
+      - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: 'npm'
           
-      # 2. Install dependencies
       - name: Install dependencies
-        run: npm install
-
-      # 3. Build the Vite project
+        run: npm ci
+        
       - name: Build project
         run: npm run build
-
+        
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
-      # 4. Upload the 'build' directory instead of the whole repository
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          # Upload the build directory instead of the entire repo
           path: './build'
-
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
