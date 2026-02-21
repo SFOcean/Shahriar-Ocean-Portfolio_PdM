@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "degree": "Master of Business Administration",
+    "field": "Technology Management",
+    "institution": "Stanford University",
+    "location": "Stanford, CA",
+    "startDate": "2018",
+    "endDate": "2020",
+    "description": "Focused on product management, technology strategy, and innovation. Completed capstone project on AI-driven product development.",
+    "achievements": [
+      "GPA: 3.9/4.0",
+      "Dean's List all semesters",
+      "President of Product Management Club"
+    ]
+  },
+  {
+    "id": "2",
+    "degree": "Bachelor of Science",
+    "field": "Computer Science",
+    "institution": "Massachusetts Institute of Technology",
+    "location": "Cambridge, MA",
+    "startDate": "2014",
+    "endDate": "2018",
+    "description": "Comprehensive study in software engineering, algorithms, and system design with minor in Business Management.",
+    "achievements": [
+      "Summa Cum Laude",
+      "Outstanding Senior Thesis Award",
+      "Google Summer of Code Participant"
+    ]
+  }
+]

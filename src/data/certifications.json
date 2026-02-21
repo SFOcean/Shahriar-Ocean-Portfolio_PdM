@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Certified Scrum Product Owner (CSPO)",
+    "issuer": "Scrum Alliance",
+    "date": "2023",
+    "credentialId": "000123456",
+    "credentialUrl": "https://example.com/credential",
+    "description": "Advanced certification in Agile product ownership and stakeholder management.",
+    "logo": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200"
+  },
+  {
+    "id": "2",
+    "name": "AWS Certified Solutions Architect",
+    "issuer": "Amazon Web Services",
+    "date": "2022",
+    "credentialId": "AWS-SA-789",
+    "credentialUrl": "https://aws.amazon.com/certification",
+    "description": "Professional certification demonstrating expertise in designing distributed systems on AWS.",
+    "logo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=200"
+  },
+  {
+    "id": "3",
+    "name": "Google Analytics Certification",
+    "issuer": "Google",
+    "date": "2023",
+    "credentialId": "GA-456789",
+    "credentialUrl": "https://analytics.google.com/analytics/academy/",
+    "description": "Certified in advanced analytics implementation and data-driven decision making.",
+    "logo": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200"
+  },
+  {
+    "id": "4",
+    "name": "Product Management Professional",
+    "issuer": "Product School",
+    "date": "2021",
+    "credentialId": "PM-2021-567",
+    "credentialUrl": "https://productschool.com",
+    "description": "Comprehensive training in product strategy, roadmapping, and user research.",
+    "logo": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=200"
+  }
+]
